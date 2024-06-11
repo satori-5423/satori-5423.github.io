@@ -17,7 +17,7 @@ import ContactCom from '../views/contact-com.vue'
           </li>
           <li>
             <p>
-              在玩遊戲：原神（UID：802384849）
+              在玩遊戲：原神（UID：802384849）、鳴潮（特徵碼：700117442）
             </p>
           </li>
           <li>
@@ -54,7 +54,16 @@ import ContactCom from '../views/contact-com.vue'
               <instruction :msg="'（中文、日文、英文）'" />
             </h3>
             <p>&nbsp;&nbsp;個人遊戲製作練習作品①<span style="color: red;">（製作中）</span></p>
-            <span><a href="#">前往Github專案 =>></a></span>
+            <span><a href="https://github.com/satori-5423/godot-practise" target="_blank">前往Github專案 =>></a></span>
+          </li>
+          <li>
+            <h3>Format module
+              <instruction :msg="'（英文）'" />
+            </h3>
+            <p>&nbsp;&nbsp;個人C++輔助模組<span style="color: red;">（實行中）</span></p>
+            <span><a href="https://github.com/satori-5423/module-for-cpp-std-containers"
+                target="_blank">前往Github專案
+                =>></a></span>
           </li>
         </ul>
       </div>

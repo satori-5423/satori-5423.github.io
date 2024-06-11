@@ -14,7 +14,7 @@ import ContactCom from '../views/contact-com.vue'
             爱好：编程、数学（计算机相关）
           </li>
           <li>
-            在玩游戏：原神（UID：802384849）
+            在玩游戏：原神（UID：802384849）、鸣潮（特征码：700117442）
           </li>
           <li>
             可接受语言（自然）：中文（简/繁）、日文、英文
@@ -46,7 +46,16 @@ import ContactCom from '../views/contact-com.vue'
               <instruction :msg="'（中文、日文、英文）'" />
             </h3>
             <p>&nbsp;&nbsp;个人游戏制作练习作品①<span style="color: red;">（制作中）</span></p>
-            <span><a href="#">前往Github项目 =>></a></span>
+            <span><a href="https://github.com/satori-5423/godot-practise" target="_blank">前往Github项目 =>></a></span>
+          </li>
+          <li>
+            <h3>Format module
+              <instruction :msg="'（英文）'" />
+            </h3>
+            <p>&nbsp;&nbsp;个人C++辅助模块<span style="color: red;">（实行中）</span></p>
+            <span><a href="https://github.com/satori-5423/module-for-cpp-std-containers"
+                target="_blank">前往Github项目
+                =>></a></span>
           </li>
         </ul>
       </div>

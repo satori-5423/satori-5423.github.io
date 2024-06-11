@@ -17,7 +17,7 @@ import ContactCom from '../views/contact-com.vue'
           </li>
           <li>
             <p>
-              Currently Playing: Genshin Impact (UID: 802384849)
+              Currently Playing: Genshin Impact (UID: 802384849), Wuthering Waves (User ID: 700117442)
             </p>
           </li>
           <li>
@@ -44,7 +44,7 @@ import ContactCom from '../views/contact-com.vue'
             <h3>Clib Library
               <instruction :msg="'(Chinese)'" />
             </h3>
-            <p>&nbsp;&nbsp;Personal MSVC C++ auxiliary library <span style="color: red;">(Discontinued, no
+            <p>&nbsp;&nbsp;Personal MSVC C++ auxiliary library <span style="color: red;"> (Discontinued, no
                 longer updated)</span></p>
             <span><a href="https://github.com/satori-5423/suxue2746841150.github.io" target="_blank">Go to
                 Github Project
@@ -54,9 +54,18 @@ import ContactCom from '../views/contact-com.vue'
             <h3>Godot practise
               <instruction :msg="'(Chinese, Japanese, English)'" />
             </h3>
-            <p>&nbsp;&nbsp;Personal game development practice work①<span style="color: red;">(is
+            <p>&nbsp;&nbsp;Personal game development practice work①<span style="color: red;"> (is
                 making)</span></p>
-            <span><a href="#">Go to Github Project =>></a></span>
+            <span><a href="https://github.com/satori-5423/godot-practise" target="_blank">Go to Github Project =>></a></span>
+          </li>
+          <li>
+            <h3>Format module
+              <instruction :msg="'（English）'" />
+            </h3>
+            <p>&nbsp;&nbsp;Personal C++ auxiliary module<span style="color: red;"> (in progress)</span></p>
+            <span><a href="https://github.com/satori-5423/module-for-cpp-std-containers"
+                target="_blank">Go to Github Project
+                =>></a></span>
           </li>
         </ul>
       </div>
