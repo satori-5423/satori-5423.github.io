@@ -95,7 +95,7 @@ const adjustButtonHeights = () => {
           <div class="btn" style="background-color: pink;" @click="zh_CN()">
             <div class="btn-content">
               <h3>
-                中文<span v-if="isHeightGreaterThanWidth"><br /></span>（简体）
+                简体<span v-if="isHeightGreaterThanWidth"><br /></span>中文
               </h3>
             </div>
           </div>
@@ -103,7 +103,7 @@ const adjustButtonHeights = () => {
           <div class="btn" style="background-color: mediumturquoise;" @click="zh_TW()">
             <div class="btn-content">
               <h3>
-                中文<span v-if="isHeightGreaterThanWidth"><br /></span>（繁體）
+                繁體<span v-if="isHeightGreaterThanWidth"><br /></span>中文
               </h3>
             </div>
           </div>
