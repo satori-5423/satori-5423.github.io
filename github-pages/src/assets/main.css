@@ -1,7 +1,7 @@
 @import './base.css';
 
 #app {
-  max-width: 1280px;
+  max-width: 80vw;
   margin: 0 auto;
   padding: 2rem;
   font-weight: normal;
@@ -28,6 +28,7 @@ a,
   }
 
   #app {
+    max-width: 1280px;
     display: grid;
     padding: 0 2rem;
   }
@@ -40,7 +41,14 @@ a,
   }
 
   #app {
+    max-width: 1280px;
     display: grid;
     padding: 0 1rem;
+  }
+}
+
+@media (min-width: 1680px) {
+  #app {
+    max-width: 95%;
   }
 }
