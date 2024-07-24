@@ -13,7 +13,7 @@ import Age from '../views/current-age.vue'
         Birthday: February 9, 2004 (<age /> years old)
     </h3>
     <h3>
-        Language: Chinese, Japanese, English
+        Languages: Chinese, Japanese, English
     </h3>
     <h3>
         Page Last Updated: <date />
