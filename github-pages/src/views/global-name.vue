@@ -1,3 +1,3 @@
 <template>
-    <span style="color: blueviolet;">蝶</span>&nbsp;
+    <span style="color: blueviolet;">蝶</span>
 </template>

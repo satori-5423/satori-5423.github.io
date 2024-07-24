@@ -12,22 +12,19 @@ import ContactCom from '../views/contact-com.vue'
         <ul style="list-style-type: square;">
           <li>
             <p>
-              Hobbies: Programming, Mathematics (Computer-related)
+              Hobbies: Programming, Mathematics (Computer)
             </p>
           </li>
           <li>
             <p>
-              Currently Playing: Genshin Impact (UID: 802384849), Wuthering Waves (User ID: 700117442)
+              Currently Playing:
+                <p>&nbsp;&nbsp;Genshin Impact (UID: 802384849)</p>
+                <p>&nbsp;&nbsp;Wuthering Waves (User ID: 700117442)</p>
             </p>
           </li>
           <li>
             <p>
-              Acceptable Languages (Natural): Chinese (Simplified/Traditional), Japanese, English
-            </p>
-          </li>
-          <li>
-            <p>
-              Acceptable Languages (Programming): C/C++, Java, JavaScript, GDScript
+              Programming Languages: C/C++, Java, JavaScript, Rust
             </p>
           </li>
           <!-- More -->
@@ -44,8 +41,7 @@ import ContactCom from '../views/contact-com.vue'
             <h3>Clib Library
               <instruction :msg="'(Chinese)'" />
             </h3>
-            <p>&nbsp;&nbsp;Personal MSVC C++ auxiliary library <span style="color: red;"> (Discontinued, no
-                longer updated)</span></p>
+            <p>&nbsp;&nbsp;Personal MSVC C++ auxiliary library <span style="color: red;"> (Discontinued)</span></p>
             <span><a href="https://github.com/satori-5423/suxue2746841150.github.io" target="_blank">Go to
                 Github Project
                 =>></a></span>

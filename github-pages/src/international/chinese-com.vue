@@ -11,16 +11,15 @@ import ContactCom from '../views/contact-com.vue'
       <div>
         <ul style="list-style-type: square;">
           <li>
-            爱好：编程、数学（计算机相关）
+            爱好：编程、数学（计算机）
           </li>
           <li>
-            在玩游戏：原神（UID：802384849）、鸣潮（特征码：700117442）
+            在玩游戏：
+              <p>&nbsp;&nbsp;原神（UID：802384849）</p>
+              <p>&nbsp;&nbsp;鸣潮（特征码：700117442）</p>
           </li>
           <li>
-            可接受语言（自然）：中文（简/繁）、日文、英文
-          </li>
-          <li>
-            可接受语言（编程）：C/C++、Java、JavaScript、GDScript
+            编程语言：C/C++、Java、JavaScript、Rust
           </li>
           <!-- 更多 -->
         </ul>
@@ -36,7 +35,7 @@ import ContactCom from '../views/contact-com.vue'
             <h3>Clib Library
               <instruction :msg="'（中文）'" />
             </h3>
-            <p>&nbsp;&nbsp;个人MSVC C++辅助库<span style="color: red;">（废案，暂停更新）</span></p>
+            <p>&nbsp;&nbsp;个人MSVC C++辅助库<span style="color: red;">（废弃）</span></p>
             <span><a href="https://github.com/satori-5423/suxue2746841150.github.io"
                 target="_blank">前往Github项目
                 =>></a></span>

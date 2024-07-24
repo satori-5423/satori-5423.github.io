@@ -13,7 +13,7 @@ import Age from '../views/current-age.vue'
         生日：2004年2月9日（<age />歲）
     </h3>
     <h3>
-        國籍：中國（China）
+        語言：中文、日語、英語
     </h3>
     <h3>
         頁面最後更新日期：<date />

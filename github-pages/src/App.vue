@@ -174,7 +174,7 @@ const adjustButtonHeights = () => {
   -webkit-user-select: none; /* Safari */
   -moz-user-select: none; /* Firefox */
   -ms-user-select: none; /* IE 10+ */
-  user-select: none; /* 标准语法 */
+  user-select: none;
 }
 
 .btn-content {
