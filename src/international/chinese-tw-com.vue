@@ -42,7 +42,7 @@ import ContactCom from '../views/contact-com.vue'
               <instruction :msg="'（中文）'" />
             </h3>
             <p>&nbsp;&nbsp;個人MSVC C++輔助庫<span style="color: red;">（廢棄）</span></p>
-            <span><a href="https://github.com/satori-5423/suxue2746841150.github.io"
+            <span><a href="https://github.com/satori-5423/clib"
                 target="_blank">前往Github專案
                 =>></a></span>
           </li>
