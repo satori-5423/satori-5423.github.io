@@ -1,0 +1,68 @@
+{
+  "socialLinks": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/satori-5423",
+      "icon": "/icons/github.png"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/satori_2768",
+      "icon": "/icons/telegram.png"
+    },
+    {
+      "name": "Discord",
+      "url": "https://discordapp.com/users/1031115461238202391",
+      "icon": "/icons/discord.png"
+    },
+    {
+      "name": "Steam",
+      "url": "https://steamcommunity.com/id/2746841150",
+      "icon": "/icons/steam.png"
+    }
+  ],
+  "frontendTech": [
+    {
+      "name": "TypeScript",
+      "icon": "/icons/typescript.png",
+      "level": 60
+    },
+    {
+      "name": "JavaScript",
+      "icon": "/icons/javascript.png",
+      "level": 70
+    },
+    {
+      "name": "HTML",
+      "icon": "/icons/html.png",
+      "level": 90
+    },
+    {
+      "name": "CSS",
+      "icon": "/icons/css.png",
+      "level": 50
+    }
+  ],
+  "backendTech": [
+    {
+      "name": "C++",
+      "icon": "/icons/cpp.png",
+      "level": 80
+    },
+    {
+      "name": "Rust",
+      "icon": "/icons/rust.svg",
+      "level": 75
+    },
+    {
+      "name": "Java",
+      "icon": "/icons/java.png",
+      "level": 70
+    },
+    {
+      "name": "SQL",
+      "icon": "/icons/sql.png",
+      "level": 65
+    }
+  ]
+}
