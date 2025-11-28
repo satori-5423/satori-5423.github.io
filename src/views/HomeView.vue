@@ -4,6 +4,7 @@ import { usePosts } from '@/composables/usePosts'
 import BlogPost from '@/components/BlogPost.vue'
 import SideCard from '@/components/Layout/SideCard.vue'
 import PaginationControl from '@/components/PaginationControl.vue'
+import bgImage from '@/assets/background.jpg'
 
 const { recentPosts } = usePosts()
 
@@ -31,9 +32,7 @@ watch(currentPage, () => {
     <div id="home-head">
       <div
         id="home-background"
-        style="
-          background-image: url('https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80');
-        "
+        :style="{ backgroundImage: `url(${bgImage})` }"
       ></div>
       <div id="home-info">
         <span class="loop"></span>
