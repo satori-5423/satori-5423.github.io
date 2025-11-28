@@ -16,13 +16,13 @@ const { t } = useLocale()
       <a href="https://github.com/satori-5423" target="_blank" title="GitHub">
         <i class="fa-brands fa-github fa-fw"></i>
       </a>
-      <a href="https://t.me/satori_5423" target="_blank" title="Telegram">
+      <a href="https://t.me/satori_2768" target="_blank" title="Telegram">
         <i class="fa-brands fa-telegram fa-fw"></i>
       </a>
-      <a href="https://twitter.com/satori_5423" target="_blank" title="Twitter">
-        <i class="fa-brands fa-twitter fa-fw"></i>
+      <a href="https://discordapp.com/users/1031115461238202391" target="_blank" title="Discord">
+        <i class="fa-brands fa-discord fa-fw"></i>
       </a>
-      <a href="https://steamcommunity.com/id/satori_5423" target="_blank" title="Steam">
+      <a href="https://steamcommunity.com/id/2746841150" target="_blank" title="Steam">
         <i class="fa-brands fa-steam fa-fw"></i>
       </a>
     </div>
