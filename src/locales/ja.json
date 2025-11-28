@@ -1,0 +1,21 @@
+{
+  "ui": {
+    "readMore": "続きを読む",
+    "postedOn": "投稿日",
+    "loading": "読み込み中...",
+    "copy": "コピー",
+    "copied": "コピーしました",
+    "fallbackWarning": "このページは現在の言語では利用できないため、別の言語で表示されています。",
+    "home": "ホーム",
+    "archives": "アーカイブ",
+    "about": "プロフィール"
+  },
+  "about": {
+    "title": "僕について",
+    "subtitle": "フルスタックデベロッパー / 語学学習者",
+    "intro": "こんにちは！中国出身のソフトウェアデベロッパーだよ🤾。中国語、日本語、英語を使うよ！😉",
+    "skills": "スキル",
+    "contact": "連絡先",
+    "contactText": "suxue2746841150@gmail.com"
+  }
+}

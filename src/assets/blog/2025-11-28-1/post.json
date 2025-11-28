@@ -1,0 +1,17 @@
+{
+  "date": "2025-11-28",
+  "categories": ["Tech"],
+  "tags": ["Test"],
+  "title": {
+    "en": "My First Blog Post",
+    "ja": "最初のブログ記事",
+    "zh-CN": "第一篇博客",
+    "zh-TW": "第一篇部落格"
+  },
+  "description": {
+    "en": "My first blog post (for testing).",
+    "ja": "僕の最初のブログ記事（テスト用）。",
+    "zh-CN": "我的第一篇博客（测试用）。",
+    "zh-TW": "我的第一篇部落格（測試用）。"
+  }
+}

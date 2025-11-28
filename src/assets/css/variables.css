@@ -1,0 +1,15 @@
+:root {
+  --color-background: #f6f8fa;
+  --color-text: #1e3e3f;
+  --color-primary: #66afef;
+  --color-secondary: #da0a51;
+  --color-card-bg: #ffffff;
+  --color-meta: #5c6b72;
+  --color-border: #d0d7de;
+
+  --shadow-card: 0 0 20px rgba(217, 217, 217, 0.5);
+  --shadow-hover: 0 0 5px #d9d9d9;
+
+  --font-family-base: 'Lexend', 'Noto Sans SC', sans-serif;
+  --font-family-code: 'Fira Code', 'Noto Sans SC', monospace;
+}

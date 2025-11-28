@@ -1,0 +1,21 @@
+{
+  "ui": {
+    "readMore": "Read More",
+    "postedOn": "Posted on",
+    "loading": "Loading...",
+    "copy": "Copy",
+    "copied": "Copied",
+    "fallbackWarning": "This page is not available in the current language and has been displayed in a fallback language.",
+    "home": "Home",
+    "archives": "Archives",
+    "about": "About"
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Full Stack Developer / Language Learner",
+    "intro": "Hello! I'm a software developer from China 🤾. I speak Chinese, Japanese, and English! 😉",
+    "skills": "Skills",
+    "contact": "Contact",
+    "contactText": "suxue2746841150@gmail.com"
+  }
+}

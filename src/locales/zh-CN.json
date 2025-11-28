@@ -1,0 +1,21 @@
+{
+  "ui": {
+    "readMore": "阅读全文",
+    "postedOn": "发布于",
+    "loading": "加载中...",
+    "copy": "复制",
+    "copied": "已复制",
+    "fallbackWarning": "该页面暂无当前语言版本，已为您回退到其他语言版本。",
+    "home": "首页",
+    "archives": "归档",
+    "about": "关于"
+  },
+  "about": {
+    "title": "关于我",
+    "subtitle": "全栈开发者 / 语言学习者",
+    "intro": "你好！这里是一名来自中国的软件开发者🤾，我使用中文、日文和英文！😉",
+    "skills": "技能",
+    "contact": "联系方式",
+    "contactText": "suxue2746841150@gmail.com"
+  }
+}
