@@ -44,6 +44,16 @@ const { t } = useLocale()
         </router-link>
       </div>
     </div>
+
+    <!-- 备用
+    <div class="friend-links">
+      <div class="friend-link">
+        <a href="#" target="_blank">
+          <img src="" alt="" />
+        </a>
+      </div>
+    </div>
+    -->
   </div>
 </template>
 

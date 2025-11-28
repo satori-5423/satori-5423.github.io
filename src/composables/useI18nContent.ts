@@ -1,10 +1,58 @@
 import { ref } from 'vue'
 
-const currentLang = ref('zh-CN')
+/**
+ * Detects the browser language and maps it to a supported language
+ * Supported languages: zh-CN, zh-TW, ja, en
+ * Falls back to 'en' if no match found
+ */
+function detectBrowserLanguage(): string {
+  const STORAGE_KEY = 'preferred-language'
+  const SUPPORTED_LANGS = ['zh-CN', 'zh-TW', 'ja', 'en']
+
+  // Check localStorage first for saved preference
+  const savedLang = localStorage.getItem(STORAGE_KEY)
+  if (savedLang && SUPPORTED_LANGS.includes(savedLang)) {
+    return savedLang
+  }
+
+  // Get browser languages
+  const browserLangs = navigator.languages || [navigator.language]
+
+  // Try to match browser language to supported languages
+  for (const browserLang of browserLangs) {
+    const lang = browserLang.toLowerCase()
+
+    // Check for exact match first
+    if (SUPPORTED_LANGS.includes(browserLang)) {
+      return browserLang
+    }
+
+    // Map common language codes to supported languages
+    if (lang.startsWith('zh')) {
+      return 'zh-CN'
+    }
+    if (lang.startsWith('zh-TW') || lang.startsWith('zh-Hant')) {
+      return 'zh-TW'
+    }
+    if (lang.startsWith('ja')) {
+      return 'ja'
+    }
+    if (lang.startsWith('en')) {
+      return 'en'
+    }
+  }
+
+  // Fallback to English
+  return 'en'
+}
+
+const currentLang = ref(detectBrowserLanguage())
 
 export function useI18n() {
   const setLang = (lang: string) => {
     currentLang.value = lang
+    // Save to localStorage for persistence
+    localStorage.setItem('preferred-language', lang)
   }
   return { currentLang, setLang }
 }
