@@ -67,12 +67,12 @@ export function useI18nContent() {
       return { ...contentMap[targetLang], isFallback: false } as T & { isFallback: boolean }
     }
 
-    if (contentMap['zh-CN']) {
-      return { ...contentMap['zh-CN'], isFallback: true } as T & { isFallback: boolean }
-    }
-
     if (contentMap['en']) {
       return { ...contentMap['en'], isFallback: true } as T & { isFallback: boolean }
+    }
+
+    if (contentMap['zh-CN']) {
+      return { ...contentMap['zh-CN'], isFallback: true } as T & { isFallback: boolean }
     }
 
     const firstKey = Object.keys(contentMap)[0]

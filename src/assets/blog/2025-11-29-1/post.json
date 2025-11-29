@@ -1,0 +1,13 @@
+{
+  "date": "2025-11-29",
+  "categories": ["Tech"],
+  "tags": ["C", "C++"],
+  "title": {
+    "en": "The goto Statement in C/C++",
+    "zh-CN": "C/C++中的goto语句"
+  },
+  "description": {
+    "en": "Some thoughts on the goto statement in C/C++",
+    "zh-CN": "关于C/C++中的goto语句的一些看法"
+  }
+}
