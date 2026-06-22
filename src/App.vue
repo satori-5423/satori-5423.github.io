@@ -1,11 +1,11 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
 import NavBar from '@/components/Layout/NavBar.vue'
-import ParticlesBackground from '@/components/ParticlesBackground.vue'
+import MDBackground from '@/components/MDBackground.vue'
 </script>
 
 <template>
-  <ParticlesBackground />
+  <MDBackground />
   <NavBar />
   <div class="app-content">
     <RouterView />
